@@ -1,0 +1,382 @@
+\documentclass{article}
+\usepackage{fancyhdr}
+\usepackage{multirow}
+\def\mydate{\leavevmode\hbox{\the\year-\twodigits\month-\twodigits\day}}
+\def\twodigits#1{\ifnum#1<10 0\fi\the#1}
+\title{Challenge Problem}
+\date{\mydate}
+\author{George Sparrow}
+
+\fancypagestyle{plain}
+{
+  \fancyhf{}
+  \lfoot{\author{George Sparrow}}
+  \cfoot{\thepage}
+  \rfoot{\date{\mydate}}
+  \renewcommand{\headrulewidth}{0pt}
+}
+\pagestyle{plain}
+
+\begin{document}
+\maketitle
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Greatest Common Factor
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\underline{Greatest Common Factor} \\
+Pull out the greatest common factor from each expression. \\
+\begin{enumerate}
+\item $2x^{2} + 2x$
+\item $7x^{3}y^{2} + 28x^{2}y^{2} - 21xy^{2}$
+\item $30abx + 40ab$
+\item $28a^{2}x^{2} - 48a^{2}x + 4a^{2}$
+\item $-10ab^{2} + 8bc - 2bd$
+\item $10x^{3}y + 3x^{2}y^{2}$
+\item $-a^{2}x^{3} + 4a^{4}b + a^{2}b$
+\item $4a^{3} + 4a^{2}b + 4ab^{2}$
+\item $170p^{3}q - 68pq^{2} + 51q^{3}$
+\item $21ef^{2} - 30f$
+\item $14a^{3}x - 4ax^{2} - 6a^{2}$
+\item $8ax^{2} + 28ay - 32ac$
+\item $-6x^{3}y + 9x^{2}y^{2} + 12xy^{3}$
+\item $2x^{3} - 8x^{2}y + 20xy^{2}$
+\item $3a^{2}b - 9ab^{2} - 3ab$
+\item $2x(x+1) - 3y(x+1) + 4z(x+1)$
+\item $75x^{3}y - 30x^{2}y^{2} + 45x^{3}$
+\item $-4x^{3}y = 6x^{2}y^{2} - 8x^{2}yz$
+\item $28a^{3}b - 20a^{2}b^{2} - 12ab^{3}$
+\item $48a^{4}b - 120a^{3}b^{3} - 144a^{2}b^{3}$
+\item $24x^{3} - 32x^{2}y + 144x$
+\item $-6xy^{2} + 8x^{2}y - 14x^{3}$
+\item $2a(6ab^{2}-7) + 3b(6ab^{2}-7)$
+\item $2p(7pq+1) + 3q(7pq+1) - (7pq+1)$
+\item $-14x^{2}y^{2} + 20x^{4}y + 30x^{5}$
+\end{enumerate}
+
+\newpage
+
+\begin{enumerate}
+\item $2x^{2} + 2x$
+  \begin{itemize}
+  \item Firstly, we need to think about what, if anything, goes into each term. It is helpful to take care of the number first, and then the variables. In this case, it is obvious that they both share 2. Now looking at the variable, they all have some power of x, so the lowest power of x is going to be part of our GCF, in this case x.
+  \item [] GCF=2x
+  \item Now we need to divide each term by the GCF.
+  \item [] {\Large $\frac{2x^{2}}{2x} + \frac{2x}{2x}$}
+  \item [] $x+1$
+  \item Now we need to put it all together for our answer, our GCF goes out front, and the remainder goes in parenthesis.
+  \item $2x(x+1)$
+  \end{itemize}
+\item $7x^{3}y^{2} + 28x^{2}y^{2} - 21xy^{2}$
+  \begin{itemize}
+  \item Firstly, we need to think about what, if anything, goes into each term. It is helpful to take care of the number first, and then the variables. In this case, they all share a factor of 7. Now looking at the variable, they all have some power of x, so the lowest power of x is going to be part of our GCF, in this case x. Now looking at the y, they all share some power of y, so the lowest power of y is going to be part of our GCF, in this case $y^{2}$.
+  \item [] $GCF=7xy^{2}$
+  \item Now we need to divide each term by the GCF.
+  \item [] {\Large $\frac{7x^{3}y^{2}}{7xy^{2}} + \frac{28x^{2}y^{2}}{7xy^{2}} - \frac{21xy^{2}}{7xy^{2}}$}
+  \item [] $x^{2}+4x-3$
+  \item Now we need to put it all together for our answer, our GCF goes out front, and the remainder goes in parenthesis.
+  \item $7xy^{2}(x^{2}+4x-3)$
+  \end{itemize}
+\item $30abx + 40ab$
+  \begin{itemize}
+  \item Firstly, we need to think about what, if anything, goes into each term. It is helpful to take care of the number first, and then the variables. In this case, they all share a factor of 10. Now looking at the variable, they all have some power of a, so the lowest power of a is going to be part of our GCF, in this case a. Now looking at the b, they all share some power of b, so the lowest power of b is going to be part of our GCF, in this case b.
+  \item [] GCF=10ab
+  \item Now we need to divide each term by the GCF.
+  \item [] {\Large $\frac{30abx}{10ab} + \frac{40ab}{10ab}$}
+  \item [] $3x+4$
+  \item Now we need to put it all together for our answer, our GCF goes out front, and the remainder goes in parenthesis.
+  \item $10ab(3x+4)$ 
+  \end{itemize}
+\item $28a^{2}x^{2} - 48a^{2}x + 4a^{2}$
+  \begin{itemize}
+  \item Firstly, we need to think about what, if anything, goes into each term. It is helpful to take care of the number first, and then the variables. In this case, they all share a factor of 4. Now looking at the variable, they all have some power of a, so the lowest power of a is going to be part of our GCF, in this case $a^{2}$.
+  \item [] $GCF=4a^{2}$
+  \item Now we need to divide each term by the GCF.
+  \item [] {\Large $\frac{28a^{2}x^{2}}{4a^{2}} - \frac{48a^{2}x}{4a^{2}} + \frac{4a^{2}}{4a^{2}}$}
+  \item [] $7x^{2}-12x+1$
+  \item Now we need to put it all together for our answer, our GCF goes out front, and the remainder goes in parenthesis.
+  \item [] $4a^{2}(7x^{2}-12x+1)$
+  \end{itemize}
+\item [] ***From here on, explanation is left to the reader***
+\item $-10ab^{2} + 8bc - 2bd$
+  \begin{itemize}
+  \item $-2b(5ab-4c+d)$
+  \end{itemize}
+\item $10x^{3}y + 3x^{2}y^{2}$
+  \begin{itemize}
+  \item $x^{2}y(10x+3y)$
+  \end{itemize}
+\item $-a^{2}x^{3} + 4a^{4}b + a^{2}b$
+  \begin{itemize}
+  \item $-a^{2}(x^{3}-4a^{2}b-b)$
+  \end{itemize}
+\item $4a^{3} + 4a^{2}b + 4ab^{2}$
+  \begin{itemize}
+  \item $4a(a^{2}+ab+b^{2})$
+  \end{itemize}
+\item $170p^{3}q - 68pq^{2} + 51q^{3}$
+  \begin{itemize}
+  \item $17q(10p^{3}-4pq+3q^{2})$
+  \end{itemize}
+\item $21ef^{2} - 30f$
+  \begin{itemize}
+  \item $3f(7ef-10)$
+  \end{itemize}
+\item $14a^{3}x - 4ax^{2} - 6a^{2}$
+  \begin{itemize}
+  \item $2a(7a^{2}x-2x^{2}-3a)$
+  \end{itemize}
+\item $8ax^{2} + 28ay - 32ac$
+  \begin{itemize}
+  \item 
+  \end{itemize}
+\item $-6x^{3}y + 9x^{2}y^{2} + 12xy^{3}$
+  \begin{itemize}
+  \item 
+  \end{itemize}
+\item $2x^{3} - 8x^{2}y + 20xy^{2}$
+  \begin{itemize}
+  \item 
+  \end{itemize}
+\item $3a^{2}b - 9ab^{2} - 3ab$
+  \begin{itemize}
+  \item 
+  \end{itemize}
+\item $2x(x+1) - 3y(x+1) + 4z(x+1)$
+  \begin{itemize}
+  \item 
+  \end{itemize}
+\item $75x^{3}y - 30x^{2}y^{2} + 45x^{3}$
+  \begin{itemize}
+  \item 
+  \end{itemize}
+\item $-4x^{3}y = 6x^{2}y^{2} - 8x^{2}yz$
+  \begin{itemize}
+  \item 
+  \end{itemize}
+\item $28a^{3}b - 20a^{2}b^{2} - 12ab^{3}$
+  \begin{itemize}
+  \item 
+  \end{itemize}
+\item $48a^{4}b - 120a^{3}b^{3} - 144a^{2}b^{3}$
+  \begin{itemize}
+  \item 
+  \end{itemize}
+\item $24x^{3} - 32x^{2}y + 144x$
+  \begin{itemize}
+  \item 
+  \end{itemize}
+\item $-6xy^{2} + 8x^{2}y - 14x^{3}$
+  \begin{itemize}
+  \item 
+  \end{itemize}
+\item $2a(6ab^{2}-7) + 3b(6ab^{2}-7)$
+  \begin{itemize}
+  \item 
+  \end{itemize}
+\item $2p(7pq+1) + 3q(7pq+1) - (7pq+1)$
+  \begin{itemize}
+  \item 
+  \end{itemize}
+\item $-14x^{2}y^{2} + 20x^{4}y + 30x^{5}$
+  \begin{itemize}
+  \item 
+  \end{itemize}
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Grouping
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\underline{Factoring - Grouping} \\
+Factor each equation. \\
+\begin{enumerate}
+\item $x^{3} + 3x^{2} + 2x + 6$
+\item $x^{2}y + 2xy - x - 2$
+\item $2a^{2}b = 4a^{2} - 3b - 6$
+\item $3x^{3} - 6x^{2} + x - 2$
+\item $2x^{3} + 2x^{2} + 3x + 3$
+\item $15xy - 20x + 6y - 8$
+\item $12ac - 9a + 8c - 6$
+\item $axby - 3ax + by - 3$
+\item $6xy + 14y - 15x - 35$
+\item $16x^{3} - 8x^{2} - 6x + 3$
+\item $ax^{2} - 3ax + x - 3$
+\item $2b^{3} - 9b^{2} - 6b + 27$
+\item $x^{4} - 4x^{3} - 3x + 12$
+\item $x^{3} - 5x^{2} - 15x + 75$
+\item $x^{3} - 10x^{2} + 2x - 20$
+\item $ax^{2} - 3ax + 4x - 12$
+\item $axy + 4xy + 2a + 8$
+\item $x^{2}y - 2xy - 7x + 14$
+\item $ax^{3} - 4ax^{2} - 3x + 12$
+\item $x^{5} - 2x^{3} - 5x^{2} + 10$
+\item $x^{7} - 10x^{3} + 5x^{4} - 50$
+\item $x^{3} - 8x^{2} + 3x - 24$
+\item $x^{3}y + 5x^{2}y - 4x - 20$
+\item $3x^{3} + 3x^{2} - 3x - 2$
+\item $8x^{4}y^{2} - 12x^{3}y - 2xy + 3$
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ACB - Explanation
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\underline{Factoring ACB}
+This sheet is intended to teach a new method of factoring called ACB. This method works every time for three term polynomials, and is has less mistakes than the trial and error method. \\
+\textbf{Factor:} $10x^{2} + 11x -6$
+\begin{enumerate}
+  \item Notice that the polynomial has no Greatest Common Factor, and is in the form $Ax^{2} + Bx + C$. In the ACB method of factoring, we will multiply A*C, and find factors of this number that add up to B. $A=10, B=11, C=-6$
+  \item[] $A*C = 10*-6 = -60$
+  \item Now we need factors of -60 that add up to B, which is 11. Since it is a negative 60, we know that one factor must be positive and one must be negative. Since it is a positive 11, we know that the larger number must be positive. So our factors are -4 and 15.
+  \item Now we rewrite the equation with these factors in the middle rather than our previous B.
+  \item[] $10x^{2} -4x + 15x -6$
+  \item Now that we have four terms, we simply factor by grouping. As is our classes convention, I will take the first two in a pair, and last two in a pair.
+  \item[] $2x(5x-2) + 3(5x-2)$
+  \item[] $(2x+3)(5x-2)$
+\end{enumerate}
+\textbf{Factor:} $12x^{2} - 14x + 4$
+\begin{enumerate}
+  \item Notice that the polynomial has no Greatest Common Factor, and is in the form $Ax^{2} + Bx + C$. In the ACB method of factoring, we will multiply A*C, and find factors of this number that add up to B. $A=12, B=-14, C=4$
+  \item[] $A*C = 12*4 = 48$
+  \item Now we need factors of 48 that add up to B, which is -14. Since it is a positive 48, we know that both factors must be of the same sign. Since it is a negative 14, we know that they must both be negative. So our factors are -8 and -6.
+  \item Now we rewrite the equation with these factors in the middle rather than our previous B.
+  \item[] $12x^{2} - 8x - 6x +4$
+  \item Now that we have four terms, we simply factor by grouping. As is our classes convention, I will take the first two in a pair, and last two in a pair.
+  \item[] $4x(3x-2) - 2(3x-2)$
+  \item[] $(4x-2)(3x-2)$
+\end{enumerate}
+\textbf{Factor:} $25x^{2} + 30x + 8$
+\begin{enumerate}
+  \item Notice that the polynomial has no Greatest Common Factor, and is in the form $Ax^{2} + Bx + C$. In the ACB method of factoring, we will multiply A*C, and find factors of this number that add up to B. $A=25, B=30, C=8$
+  \item[] $A*C = 25*8 = 200$
+  \item Now we need factors of 200 that add up to B, which is 30. Since it is a positive 200, we know that both factors must be of the same sign. Since it is a positive 30, we know that they must both be positive. So our factors are 20 and 10.
+  \item Now we rewrite the equation with these factors in the middle rather than our previous B.
+  \item[] $25x^{2} + 20x + 10x +8$
+  \item Now that we have four terms, we simply factor by grouping. As is our classes convention, I will take the first two in a pair, and last two in a pair.
+  \item[] $5x(5x+4) + 2(5x+4)$
+  \item[] $(5x+2)(5x+4)$
+\end{enumerate}
+\textbf{Factor:} $108x^{2} - 24x - 15$
+\begin{enumerate}
+  \item Notice that the polynomial has a Greatest Common Factor. We need to pull this out as our first step, and then it will come along for the ride on each of our other steps.
+  \item [] $3(36x^{2} - 8x - 5)$
+  \item Notice now that it is in the form $Ax^{2} + Bx + C$. In the ACB method of factoring, we will multiply A*C, and find factors of this number that add up to B. $A=36, B=-8, C=-5$
+  \item[] $A*C = 36*-5 = -180$
+  \item Now we need factors of -180 that add up to B, which is -8. Since it is a negative 180, we know that one factor will be a positive and the other factor will be a negative. Since it is a negative 8, we know that the larger number must be negative. So our factors are -18 and 10.
+  \item Now we rewrite the equation with these factors in the middle rather than our previous B.
+  \item[] $3( 36x^{2} - 18x + 10x - 5 )$
+  \item Now that we have four terms, we simply factor by grouping. As is our classes convention, I will take the first two in a pair, and last two in a pair.
+  \item[] $3( 18x(2x-1) +5(2x-1) )$
+  \item[] $3((18x+5)(2x-1))$
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ACB
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\underline{Factoring - ACB Method} \\
+Factor and solve each equation. \\
+\begin{enumerate}
+\item $2x^{2} + 20x + 42 = 0$
+\item $2x^{2} + x - 3 = 0$
+\item $3x^{2} + 2x - 8 = 0$
+\item $4x^{2} - 12x - 7 = 0$
+\item $2x^{2} + 5x - 12 = 0$
+\item $2x^{2} + 9x + 9 = 0$
+\item $6x^{2} - 5x - 6 = 0$
+\item $4x^{2} - 7x + 3 = 0$
+\item $4x^{2} + 4x - 3 = 0$
+\item $3x^{2} + 13x + 12 = 0$
+\item $4x^{2} - 15x - 4 = 0$
+\item $4x^{2} - 16x + 15 = 0$
+\item $6x^{2} + 10x - 24 = 0$
+\item $2x^{2} - x - 6 = 0$
+\item $4x^{2} + 12x + 5 = 0$
+\item $3x^{2} - 25x + 28 = 0$
+\item $3x^{2} - x - 14 = 0$
+\item $6x^{2} + 4x - 42 = 0$
+\item $3x^{2} + 7x - 6 = 0$
+\item $4x^{2} - 4x - 3 = 0$
+\item $3x^{2} + 2xx - 45 = 0$
+\item $4x^{2} - 8x - 21 = 0$
+\item $2x^{2} + 9x - 35 =0$
+\item $9x^{2} + 24x - 20 = 0$
+\item $2x^{2} + 11x - 40 = 0$
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Sums and Differences of Cubes - Explanation
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\underline{Sums and Differences of Cubes} \\
+This sheet is designed to teach the sum or difference of two perfect cubes methods. \\
+\textbf{Formulas:} \\
+\begin{enumerate}
+\item [] $A^{3}+B^{3} = (A+B)(A^{2}-AB+B^{2})$
+\item [] $A^{3}-B^{3} = (A-B)(A^{2}+AB+B^{2})$
+\end{enumerate}
+\textbf{Factor:} $x^{3} + 27$\\
+\begin{enumerate}
+\item Since the first step of all factoring is trying to pull out a GCF, I might be able to do that here. In this case I cannot.
+\item Notice that this is two perfect cubes, as $x^{3}$ is the cube of x, and 27 is the cube of 3. $A^{3}=x^{3}, B^{3}=27, A=x, B=3$
+\item Now we need to plug in to the formula.
+\item [] $(A+B)(A^{2}-AB+B^{2})$
+\item [] $(x+3)(x^{2}-3x+9)$
+\item Done!
+\end{enumerate}
+\textbf{Factor:} $x^{3} - 125$\\
+\begin{enumerate}
+\item Since the first step of all factoring is trying to pull out a GCF, I might be able to do that here. In this case I cannot.
+\item Notice that this is two perfect cubes, as $x^{3}$ is the cube of x, and 125 is the cube of 5. $A^{3}=x^{3}, B^{3}=125, A=x, B=5$
+\item Now we need to plug in to the formula.
+\item [] $(A-B)(A^{2}+AB+B^{2})$
+\item [] $(x-5)(x^{2}+5x+25)$
+\end{enumerate}
+\textbf{Factor:} $x^{3} + 4096y^{3}$\\
+\begin{enumerate}
+\item Since the first step of all factoring is trying to pull out a GCF, I might be able to do that here. In this case I cannot.
+\item Notice that this is two perfect cubes, as $x^{3}$ is the cube of x, and $4096y^{3}$ is the cube of 16y. $A^{3}=x^{3}, B^{3}=4096y^{3}, A=x, B=16y$
+\item Now we need to plug in to the formula.
+\item [] $(A+B)(A^{2}-AB+B^{2})$
+\item [] $(x+16y)(x^{2}-16xy+256)$
+\end{enumerate}
+\textbf{Factor:} $x^{3} - 8$\\
+\begin{enumerate}
+\item Since the first step of all factoring is trying to pull out a GCF, I might be able to do that here. In this case I cannot.
+\item Notice that this is two perfect cubes, as $x^{3}$ is the cube of x, and 8 is the cube of 2. $A^{3}=x^{3}, B^{3}=8, A=x, B=2$
+\item Now we need to plug in to the formula.
+\item [] $(A-B)(A^{2}+AB+B^{2})$
+\item [] $(x-2)(x^{2}+2x+4)$
+\end{enumerate}
+\textbf{Factor:} $3x^{3} + 17496y^{3}$\\
+\begin{enumerate}
+\item Since the first step of all factoring is trying to pull out a GCF, I might be able to do that here. In this case they both have a 3 in common, so I can
+\item [] $3(x^{3}+5832y^{3}$
+\item Notice that this is two perfect cubes, as $x^{3}$ is the cube of x, and $5832y^{3}$ is the cube of 18y. $A^{3}=x^{3}, B^{3}=5832y^{3}, A=x, B=18y$
+\item Now we need to plug in to the formula, remembering to bring down my GCF.
+\item [] $(A+B)(A^{2}-AB+B^{2})$
+\item [] $3(x+18y)(x^{2}-18xy+324)$
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ACB
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\underline{Factoring - Difference of Squares and Sum/Difference of Cubes} \\
+Factor\\
+\begin{enumerate}
+\item $x^{2} - 1$
+\item $x^{2} - 4$
+\item $x^{2} - 81$
+\item $x^{2} - 36$
+\item $2x^{2} - 32$
+\item $4x^{2} - 16$
+\item $4x^{2} - 81$
+\item $x^{4} - 81$
+\item $16x^{4} - 81$
+\item $27x^{2} + 48$
+\item $x^{3} - 8$
+\item $x^{3} + 1$
+\item $8x^{3} - 27$
+\item $54x^{3} + 128$
+\item $x^{6} - 64$
+\item $x^{6} - 1$
+\item $125a^{3} + 216$
+\item $32a^{4} - 162$
+\item $162x^{6} -2x^{2}$
+\item $32a^{4} + 162$
+\end{enumerate}
+\end{document}
