@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Order of Operations}{2}{section.1}
+\contentsline {section}{\numberline {2}Solving for x}{7}{section.2}
+\contentsline {section}{\numberline {3}Consecutive Integers}{9}{section.3}
+\contentsline {section}{\numberline {4}Greatest Common Factor}{11}{section.4}
+\contentsline {section}{\numberline {5}Factoring - Grouping}{15}{section.5}
+\contentsline {section}{\numberline {6}Factoring ACB}{20}{section.6}
+\contentsline {section}{\numberline {7}Factoring - ACB Method}{23}{section.7}
+\contentsline {section}{\numberline {8}Sums and Differences of Cubes}{28}{section.8}
+\contentsline {section}{\numberline {9}Factoring - Difference of Squares and Sum/Difference of Cubes}{30}{section.9}
+\contentsline {section}{\numberline {10}Exponents}{34}{section.10}

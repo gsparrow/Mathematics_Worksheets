@@ -1,6 +1,9 @@
 \documentclass{article}
 \usepackage{fancyhdr}
 \usepackage{multirow}
+\usepackage{amssymb}
+\usepackage[hidelinks, letterpaper, pagebackref, bookmarksopen, bookmarksnumbered]{hyperref}
+\usepackage{bookmark}
 \def\mydate{\leavevmode\hbox{\the\year-\twodigits\month-\twodigits\day}}
 \def\twodigits#1{\ifnum#1<10 0\fi\the#1}
 \title{Factoring Packet}
@@ -20,11 +23,13 @@
 \begin{document}
 \maketitle
 \newpage
+\pdfbookmark[section]{\contentsname}{toc}
+\tableofcontents
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Order of Operations
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\underline{Order of Operations}\\
+\section{Order of Operations}
 Simplify Each Expression\\
 \begin{enumerate}
 %%%% 1  %%%%
@@ -206,7 +211,7 @@ Simplify Each Expression\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Solving for x
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\underline{Solving for x in single variable equations}\\
+\section{Solving for x}
 Solve each equation for x.
 \begin{enumerate}
 %%%% 1  %%%%
@@ -295,7 +300,7 @@ Solve each equation for x.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Consecutive Integers Explanation
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\underline{Consecutive Integers} \\
+\section{Consecutive Integers}
 Consecutive integers are positive or negative whole numbers that lie next to each other on a number line. 
 The easiest example of consecutive integers are the numbers 1, 2, \& 3.
 
@@ -342,7 +347,7 @@ The easiest example of consecutive integers are the numbers 1, 2, \& 3.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Greatest Common Factor
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\underline{Greatest Common Factor} \\
+\section{Greatest Common Factor}
 Pull out the greatest common factor from each expression. \\
 \begin{enumerate}
 %%%% 1  %%%%
@@ -556,7 +561,7 @@ Pull out the greatest common factor from each expression. \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Grouping
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\underline{Factoring - Grouping} \\
+\section{Factoring - Grouping}
 Factor each equation. \\
 \begin{enumerate}
 %%%% 1  %%%%
@@ -790,7 +795,7 @@ Factor each equation. \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % ACB - Explanation
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\underline{Factoring ACB}\\
+\section{Factoring ACB}
 This sheet is intended to teach a new method of factoring called ACB. This method works every time for three term polynomials, and is has less mistakes than the trial and error method. \\
 %%%% 1  %%%%
 \textbf{Factor:} $10x^{2} + 11x -6$
@@ -847,7 +852,7 @@ This sheet is intended to teach a new method of factoring called ACB. This metho
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % ACB
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\underline{Factoring - ACB Method} \\
+\section{Factoring - ACB Method}
 Factor and solve each equation. \\
 \begin{enumerate}
 %%%% 1  %%%%
@@ -1113,7 +1118,7 @@ Factor and solve each equation. \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Sums and Differences of Cubes - Explanation
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\underline{Sums and Differences of Cubes} \\
+\section{Sums and Differences of Cubes}
 This sheet is designed to teach the sum or difference of two perfect cubes methods. \\
 \textbf{Formulas:} \\
 \begin{enumerate}
@@ -1172,7 +1177,7 @@ This sheet is designed to teach the sum or difference of two perfect cubes metho
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % ACB
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\underline{Factoring - Difference of Squares and Sum/Difference of Cubes} \\
+\section{Factoring - Difference of Squares and Sum/Difference of Cubes}
 Factor\\
 \begin{enumerate}
 %%%% 1  %%%%
@@ -1370,7 +1375,7 @@ Factor\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Exponents
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\underline{Exponents}\\
+\section{Exponents}
 Simplify each expression and give your answer in a form with no negative exponents.
 \begin{enumerate}
 %%%% 1  %%%%
@@ -1388,7 +1393,7 @@ Simplify each expression and give your answer in a form with no negative exponen
 %%%% 7  %%%%
 \item {\Large $\frac{(ab)^{2}}{(a^{-2}b)^{2}}$}
 %%%% 8  %%%%
-\item {\Large $\frac{(abc^{2})^{3}}{a^{-3}b^{-2}c)^{2}}$}
+\item {\Large $\frac{(abc^{2})^{3}}{(a^{-3}b^{-2}c)^{2}}$}
 %%%% 9  %%%%
 \item {\Large $\frac{(a^{-2}b)^{2}}{(ab^{-2})^{2}}$}
 %%%% 10 %%%%
@@ -1414,5 +1419,188 @@ Simplify each expression and give your answer in a form with no negative exponen
 %%%% 20 %%%%
 \item {\Large $\frac{(2mx^{2})^{-3}(-2a^{2}b^{-4}c^{-5}d^{3})^{-1}(-3^{3})}{(15x^{5}m^{3}d^{-4}a^{-7}b^{6})^{0}(-2a^{2}b^{-4}c^{-5}d^{3})^{-1}(3d^{2}m^{-4}x^{6})^{2}}$}
 \end{enumerate}
+\newpage
 
+\begin{enumerate}
+%%%% 1  %%%%
+\item $-9^{2}$
+  \begin{itemize}
+  \item $-9^{2}$
+  \item $-81$
+  \end{itemize}
+%%%% 2  %%%%
+\item $(-5)^{2}$
+  \begin{itemize}
+  \item $(-5)^{2}$
+  \item $25$
+  \end{itemize}
+%%%% 3  %%%%
+\item $(x+2)^{2}$
+  \begin{itemize}
+  \item $(x+2)^{2}$
+  \item $(x+2)(x+2)$
+  \item $x^{2}+2x+2x+4$
+  \item $x^{2}+4x+4$
+  \end{itemize}
+%%%% 4  %%%%
+\item $(x^{2}y^{3})^{2}$
+  \begin{itemize}
+  \item $(x^{2}y^{3})^{2}$
+  \item $x^{4}y^{6}$
+  \end{itemize}
+%%%% 5  %%%%
+\item $(x^{2}y^{3})^{3}$
+  \begin{itemize}
+  \item $(x^{2}y^{3})^{3}$
+  \item $x^{6}y^{9}$
+  \end{itemize}
+%%%% 6  %%%%
+\item $(a^{-2}b^{-3})^{2}$
+  \begin{itemize}
+  \item $(a^{-2}b^{-3})^{2}$
+  \item $a^{-4}b^{-6}$
+  \item {\Large $\frac{1}{a^{4}b^{6}}$}
+  \end{itemize}
+%%%% 7  %%%%
+\item {\Large $\frac{(ab)^{2}}{(a^{-2}b)^{2}}$}
+  \begin{itemize}
+  \item {\Large $\frac{(ab)^{2}}{(a^{-2}b)^{2}}$}
+  \item {\Large $\frac{(a^{2}b^{2}}{a^{-4}b^{2}}$}
+  \item $a^{6}b^{0}$
+  \item $a^{6}$
+  \end{itemize}
+%%%% 8  %%%%
+\item {\Large $\frac{(abc^{2})^{3}}{a^{-3}b^{-2}c)^{2}}$}
+  \begin{itemize}
+  \item {\Large $\frac{(abc^{2})^{3}}{(a^{-3}b^{-2}c)^{2}}$}
+  \item {\Large $\frac{a^{3}b^{3}c^{6}}{a^{-6}b^{-4}c^{2}}$}
+  \item  $a^{9}b^{7}c^{4}$
+  \end{itemize}
+%%%% 9  %%%%
+\item {\Large $\frac{(a^{-2}b)^{2}}{(ab^{-2})^{2}}$}
+  \begin{itemize}
+  \item {\Large $\frac{(a^{-2}b)^{2}}{(ab^{-2})^{2}}$}
+  \item {\Large $\frac{a^{-4}b^{2}}{a^{2}b^{-4}}$}
+  \item $a^{-6}b^{6}$
+  \item {\Large $\frac{b^{6}}{a^{6}}$}
+  \end{itemize}
+%%%% 10 %%%%
+\item {\Large $\frac{(2ab^{3})^{2}}{(3a^{3}b^{2})^{2}}$}
+  \begin{itemize}
+  \item {\Large $\frac{(2ab^{3})^{2}}{(3a^{3}b^{2})^{2}}$}
+  \item {\Large $\frac{4a^{2}b^{6}}{9a^{6}b^{4}}$}
+  \item {\Large $\frac{4a^{-4}b^{2}}{9}$}
+  \item {\Large $\frac{4b^{2}}{9a^{4}}$}
+  \end{itemize}
+%%%% 11 %%%%
+\item {\Large $\frac{(2a^{-2}b)^{-2}}{(3ab^{-3})^{-2}}$}
+  \begin{itemize}
+  \item {\Large $\frac{(2a^{-2}b)^{-2}}{(3ab^{-3})^{-2}}$}
+  \item {\Large $\frac{4a^{-4}b^{-2}}{(3)^{-2}a^{-2}b^{-6}}$}
+  \item {\Large $\frac{4a^{-2}b^{4}}{(3)^{-2}}$}
+  \item {\Large $\frac{4a^{-2}b^{4}}{(3)^{-2}}$}
+  \item {\Large $\frac{4(3)^{2}b^{4}}{a^{2}}$}
+  \item {\Large $\frac{4*9b^{4}}{a^{2}}$}
+  \item {\Large $\frac{36b^{4}}{a^{2}}$}
+  \end{itemize}
+%%%% 12 %%%%
+\item {\Large $\frac{(4ab^{-2}c)^{-3}}{(2a^{-2}bc^{3})^{-2}}$}
+  \begin{itemize}
+  \item {\Large $\frac{(4ab^{-2}c)^{-3}}{(2a^{-2}bc^{3})^{-2}}$}
+  \item {\Large $\frac{(4)^{-3}a^{-3}b^{6}c^{-3}}{(2)^{-2}a^{4}b^{-2}c^{-6}}$}
+  \item {\Large $\frac{(4)^{-3}a^{-7}b^{8}c^{3}}{(2)^{-2}}$}
+  \item {\Large $\frac{(2)^{2}b^{8}c^{3}}{(4)^{3}a^{7}}$}
+  \item {\Large $\frac{4b^{8}c^{3}}{64a^{7}}$}
+  \item {\Large $\frac{b^{8}c^{3}}{16a^{7}}$}
+  \end{itemize}
+%%%% 13 %%%%
+\item {\Large $\frac{(\frac{1}{2}a^{-2}b^{3}c^{4})^{-3}}{(3ab^{2}c^{-2})^{-2}}$}
+  \begin{itemize}
+  \item {\Large $\frac{(\frac{1}{2}a^{-2}b^{3}c^{4})^{-3}}{(3ab^{2}c^{-2})^{-2}}$}
+  \item {\Large $\frac{(\frac{1}{2})^{-3}a^{6}b^{-9}c^{-12}}{(3)^{-2}a^{-2}b^{-4}c^{4}}$}
+  \item {\Large $\frac{(\frac{2}{1})^{3}a^{6}b^{-9}c^{-12}}{(3)^{-2}a^{-2}b^{-4}c^{4}}$}
+  \item {\Large $\frac{(2)^{3}a^{6}b^{-9}c^{-12}}{(3)^{-2}a^{-2}b^{-4}c^{4}}$}
+  \item {\Large $\frac{8a^{8}b^{-5}c^{-16}}{(3)^{-2}}$}
+  \item {\Large $\frac{8*(3)^{2}a^{8}}{b^{5}c^{16}}$}
+  \item {\Large $\frac{8*9a^{8}}{b^{5}c^{16}}$}
+  \item {\Large $\frac{72a^{8}}{b^{5}c^{16}}$}
+  \end{itemize}
+%%%% 14 %%%%
+\item {\Large $(\frac{1}{3})^{2}$}
+  \begin{itemize}
+  \item {\Large $(\frac{1}{3})^{2}$}
+  \item {\Large $\frac{1}{9}$}
+  \end{itemize}
+%%%% 15 %%%%
+\item {\Large $(\frac{2}{8})^{2}$}
+  \begin{itemize}
+  \item {\Large $(\frac{2}{8})^{2}$}
+  \item {\Large $(\frac{1}{4})^{2}$}
+  \item {\Large $\frac{1}{16}$}
+  \end{itemize}
+%%%% 16 %%%%
+\item {\Large $\frac{(x^{2}+2x+1)^{2}}{(x^{2}-1)^{2}}$}
+  \begin{itemize}
+  \item {\Large $\frac{(x^{2}+2x+1)^{2}}{(x^{2}-1)^{2}}$}
+  \item {\Large $\frac{(x^{2}+2x+1)(x^{2}+2x+1)}{(x^{2}-1)(x^{2}-1)}$}
+    \begin{itemize}
+    \item $(x^{2}+2x+1)(x^{2}+2x+1)$
+    \item [] \begin{tabular}{rrrrr}
+                    &          & $x^{2}$  & $+2x$     &$+1$\\
+                   x&          & $x^{2}$  & $+2x$     &$+1$\\\hline
+                    &          & $x^{2}$  & $2x$      &$+1$\\
+                    & $2x^{3}$ & $4x^{2}$ & $2x$      &$\square$\\
+             $x^{4}$& $2x^{3}$ & $x^{2}$  & $\square$ &$\square$\\\hline
+             $x^{4}$&$+4x^{3}$ &$+6x^{2}$ & $+4x$     &$+2$\\
+           \end{tabular}
+    \item $x^{4}+4x^{3}+6x^{2}+4x+2$
+    \end{itemize}
+    \begin{itemize}
+    \item $(x^{2}-1)(x^{2}-1)$
+    \item $x^{4}-2x^{2}+1$
+    \end{itemize}
+  \item {\Large $\frac{x^{4}+4x^{3}+6x^{2}+4x+2}{x^{4}-2x^{2}+1}$}
+  \end{itemize}
+%%%% 17 %%%%
+\item {\Large $(\frac{-2}{3})^{-2}$}
+  \begin{itemize}
+  \item {\Large $(\frac{-2}{3})^{-2}$}
+  \item {\Large $(\frac{3}{-2})^{2}$}
+  \item {\Large $\frac{9}{4}$}
+  \end{itemize}
+%%%% 18 %%%%
+\item {\Large $\frac{(-2)^{-3}(3)^{2}x^{2}yz^{-2}}{(2)^{-1}(5)^{-2}xy^{2}z^{-3}}$}
+  \begin{itemize}
+  \item {\Large $\frac{(-2)^{-3}(3)^{2}x^{2}yz^{-2}}{(2)^{-1}(5)^{-2}xy^{2}z^{-3}}$}
+  \item {\Large $\frac{(-2)^{-3}(3)^{2}x^{1}y^{-1}z^{1}}{(2)^{-1}(5)^{-2}}$}
+  \item {\Large $\frac{(2)^{1}(3)^{2}(5)^{2}x^{1}z^{1}}{(-2)^{3}y^{1}}$}
+  \item {\Large $\frac{2*9*25xz}{-8y}$}
+  \item {\Large $\frac{450xz}{-8y}$}
+  \item {\Large $-\frac{225xz}{4y}$}
+  \end{itemize}
+%%%% 19 %%%%
+\item {\Large $(2a^{2}xy^{-3})\frac{(2axy^{1})^{-2}}{(256a^{5}b^{-6}x^{15}y^{22}z^{-12})^{0}}$}
+  \begin{itemize}
+  \item {\Large $(2a^{2}xy^{-3})\frac{(2axy^{1})^{-2}}{(256a^{5}b^{-6}x^{15}y^{22}z^{-12})^{0}}$}
+  \item {\Large $(2a^{2}xy^{-3})\frac{(2axy)^{-2}}{1}$}
+  \item {\Large $(2a^{2}xy^{-3})\frac{1}{(2axy)^{2}}$}
+  \item {\Large $\frac{2a^{2}xy^{-3}}{(2axy)^{2}}$}
+  \item {\Large $\frac{2a^{2}xy^{-3}}{4a^{2}x^{2}y^{2}}$}
+  \item {\Large $\frac{a^{2}xy^{-3}}{2a^{2}x^{2}y^{2}}$}
+  \item {\Large $\frac{a^{0}x^{-1}y^{-5}}{2}$}
+  \item {\Large $\frac{1}{2xy^{5}}$}
+  \end{itemize}
+%%%% 20 %%%%
+\item {\Large $\frac{(2mx^{2})^{-3}(-2a^{2}b^{-4}c^{-5}d^{3})^{-1}(-3^{3})}{(15x^{5}m^{3}d^{-4}a^{-7}b^{6})^{0}(-2a^{2}b^{-4}c^{-5}d^{3})^{-1}(3d^{2}m^{-4}x^{6})^{2}}$}
+  \begin{itemize}
+  \item {\Large $\frac{(2mx^{2})^{-3}(-2a^{2}b^{-4}c^{-5}d^{3})^{-1}(-3^{3})}{(15x^{5}m^{3}d^{-4}a^{-7}b^{6})^{0}(-2a^{2}b^{-4}c^{-5}d^{3})^{-1}(3d^{2}m^{-4}x^{6})^{2}}$}
+  \item {\Large $\frac{(2mx^{2})^{-3}(-2a^{2}b^{-4}c^{-5}d^{3})^{-1}(-3^{3})}{(-2a^{2}b^{-4}c^{-5}d^{3})^{-1}(3d^{2}m^{-4}x^{6})^{2}}$}
+  \item {\Large $\frac{(2)^{-3}m^{-3}x^{-6}(-2)^{-1}a^{-2}b^{4}c^{5}d^{-3}(-27)}{(-2)^{-1}a^{-2}b^{4}c^{5}d^{-3}(3)^{2}d^{4}m^{-8}x^{12}}$}
+  \item {\Large $\frac{(2)^{-3}m^{5}x^{-18}(-2)^{-1}a^{0}b^{0}c^{0}d^{-4}(-27)}{(-2)^{-1}(3)^{2}}$}
+  \item {\Large $\frac{(2)^{-3}m^{5}x^{-18}(-2)^{-1}d^{-4}(-27)}{(-2)^{-1}(3)^{2}}$}
+  \item {\Large $\frac{(-2)m^{5}(-27)}{(2)^{3}(-2)*9x^{18}d^{4}}$}
+  \item {\Large $\frac{(54)m^{5}}{8*(-2)*9x^{18}d^{4}}$}
+  \item {\Large $\frac{3m^{5}}{2x^{18}d^{4}}$}
+  \end{itemize}
+\end{enumerate}
 \end{document}
