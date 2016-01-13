@@ -3,4 +3,9 @@ This is a project in LaTEX to provide resources to A100
 To compile the source to pdf
 $ make
 
-This project came from the need to make the Tutoring Center's resources permanent, as originally they were all loose-leaf paper in a filing cabinet. I then turned this in to a binder which attempted to be a complete guide for the course, and every math course the Center offered. After finding many errors, and no source files being present, this repository was created and is currently the best source of materials for the course. It is currently being mathematically verified, as well as judged on its readability/understandability, while the final worksheets and answers are added.
+This project came from the need to make the Tutoring Center's resources permanent, as originally they were all loose-leaf paper in a filing cabinet. 
+I then turned this in to a binder which attempted to be a complete guide for the course, and every math course the Center offered. 
+After finding many errors, and no source files being present, this repository was created and is currently the best source of materials for the course. 
+It is currently being mathematically verified, as well as judged on its readability/understandability, while the final worksheets and answers are added.
+
+Permission was granted to make my part of the contribution public by Dr. Ginny Heideman on 2016-01-12
