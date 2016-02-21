@@ -1,4 +1,4 @@
-SRCC=$(shell ls *.tex)
+SRCC=A100_Binder.tex
 EXEC=$(SRCC:.tex=.pdf)
 
 all: compile view

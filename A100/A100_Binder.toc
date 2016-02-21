@@ -15,10 +15,10 @@
 \contentsline {section}{\numberline {15}Exponents}{26}{section.15}
 \contentsline {section}{\numberline {16}Answers - Order of Operations}{28}{section.16}
 \contentsline {section}{\numberline {17}Answers - Scientific Notation}{31}{section.17}
-\contentsline {section}{\numberline {18}Answers - Solving for x}{39}{section.18}
-\contentsline {section}{\numberline {19}Answers - Systems of Equations - Substitution and Addition/Elimination}{43}{section.19}
-\contentsline {section}{\numberline {20}Answers - Greatest Common Factor}{67}{section.20}
-\contentsline {section}{\numberline {21}Answers - Factoring - Grouping}{71}{section.21}
-\contentsline {section}{\numberline {22}Answers - Factoring - ACB}{75}{section.22}
-\contentsline {section}{\numberline {23}Answers - Factoring - Difference of Squares and Sum/Difference of Cubes}{79}{section.23}
-\contentsline {section}{\numberline {24}Answers - Exponents}{82}{section.24}
+\contentsline {section}{\numberline {18}Answers - Polynomial Addition and Subtraction}{39}{section.18}
+\contentsline {section}{\numberline {19}Answers - Solving for x}{41}{section.19}
+\contentsline {section}{\numberline {20}Answers - Systems of Equations - Substitution and Addition/Elimination}{45}{section.20}
+\contentsline {section}{\numberline {21}Answers - Greatest Common Factor}{69}{section.21}
+\contentsline {section}{\numberline {22}Answers - Factoring - Grouping}{73}{section.22}
+\contentsline {section}{\numberline {23}Answers - Factoring - ACB}{77}{section.23}
+\contentsline {section}{\numberline {24}Answers - Factoring - Difference of Squares and Sum/Difference of Cubes}{81}{section.24}
